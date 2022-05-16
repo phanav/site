@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-<img width="30%" style="float: left;" src="../images/profile-photo.jpg">
+<img width="25%" style="float: left; margin: 1em" src="../images/profile-photo.jpg">
 
 My name is Phan Anh Vu (Vũ).
 
