@@ -543,12 +543,12 @@ window.onload = wrap_img;
 <p>To facilitate visualization, we will consider a special dice. This special dice has the number 1 on 2 sides, number 2 on 2 sides and number 3 on the remaining 2 sides. Thus, we can describe this dice by 3 numbers, corresponding to the probability of landing on 1, 2 or 3.</p>
 <p>These 3 numbers must form a valid probability distribution. Specifically, each component must be a real number between 0 and 1. Moreover, their sum must be 1. Let us denote by $p_1$ the probability of landing on 1, $p_2$ the probability of landing on 2, $p_3$ the probability of landing on 3.</p>
 $$
-\begin{align}
+\begin{aligned}
 0 \leq p_1 \leq 1 \\
 0 \leq p_2 \leq 1 \\
 0 \leq p_3 \leq 1 \\
 p_1 + p_2 + p_3 = 1
-\end{align}
+\end{aligned}
 $$<p>With n = the dimension of the outcome, the more general form of these conditions is:</p>
 $$
 \begin{aligned}
@@ -703,11 +703,13 @@ $$<p>These conditions define what is called probability simplex. It is simply al
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The 1st plot is a contour plot. The triangle is the probability simplex in 3 dimensions. In other words, it represent all combination of a trio $[p_1, p_2, p_3]$, which lies between 0 and 1 and sums up to 1. The color denotes density.</p>
 <p>The corner of the triangle are extremely skewed configuration:</p>
-\begin{align}
+$$
+\begin{aligned}
 [p_1 = 1, p_2 = 0, p_3 = 0] \\
 [p_1 = 0, p_2 = 1, p_3 = 0] \\
 [p_1 = 0, p_2 = 0, p_3 = 1]
-\end{align}<p>The center of the triangle is the equal probability configuration:
+\end{aligned}
+$$<p>The center of the triangle is the equal probability configuration:
 
 $$[p_1 = 1/3, p_2 = 1/3, p_3 = 1/3]$$
 </p>
