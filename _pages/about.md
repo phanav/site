@@ -4,8 +4,10 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+<img style="float: left;" src="../images/profile_photo.png">
 
+My name is Phan Anh Vu (Vũ).
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+I have studied Mathematics, Computer Science, then Economics and Finance. 
+I took a Software Engineer position for a few years.
+Most recently, I mainly work on Machine Learning
