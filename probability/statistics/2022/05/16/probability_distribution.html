@@ -542,16 +542,20 @@ window.onload = wrap_img;
 <p>Data -&gt; Parameter : Dirichlet</p>
 <p>To facilitate visualization, we will consider a special dice. This special dice has the number 1 on 2 sides, number 2 on 2 sides and number 3 on the remaining 2 sides. Thus, we can describe this dice by 3 numbers, corresponding to the probability of landing on 1, 2 or 3.</p>
 <p>These 3 numbers must form a valid probability distribution. Specifically, each component must be a real number between 0 and 1. Moreover, their sum must be 1. Let us denote by $p_1$ the probability of landing on 1, $p_2$ the probability of landing on 2, $p_3$ the probability of landing on 3.</p>
+$$
 \begin{align}
 0 \leq p_1 \leq 1 \\
 0 \leq p_2 \leq 1 \\
 0 \leq p_3 \leq 1 \\
 p_1 + p_2 + p_3 = 1
-\end{align}<p>With n = the dimension of the outcome, the more general form of these conditions is:</p>
-\begin{align}
+\end{align}
+$$<p>With n = the dimension of the outcome, the more general form of these conditions is:</p>
+$$
+\begin{aligned}
 0 \leq p_i \leq 1 ; \forall i = 1, 2, 3, ..., n \\
 \sum_i^n p_i = 1
-\end{align}<p>These conditions define what is called probability simplex. It is simply all configurations which can form a valid probability distribution. In the 3 dimensional case, the simplex is a triangle. Let us plot some examples.</p>
+\end{aligned}
+$$<p>These conditions define what is called probability simplex. It is simply all configurations which can form a valid probability distribution. In the 3 dimensional case, the simplex is a triangle. Let us plot some examples.</p>
 
 </div>
 </div>
